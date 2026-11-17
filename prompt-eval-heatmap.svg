@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1400" viewBox="0 0 1700 1400">
+  <rect width="1700" height="1400" fill="#F7F8FA"/>
+
+  <text x="80" y="94" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">
+    More elaborate prompts didn’t win this small test
+  </text>
+  <text x="80" y="150" fill="#4B5565" font-family="Arial, Helvetica, sans-serif" font-size="25">
+    Matches to expected label · each cell shows correct responses out of 5 runs
+  </text>
+
+  <rect x="80" y="185" width="1540" height="58" rx="14" fill="#E9EDF3"/>
+  <text x="106" y="222" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20">
+    Local Qwen 2.5 3B · Ollama · temperature 0.7 · 9 hand-labeled inputs · 5 repeats per input
+  </text>
+
+  <text x="104" y="302" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.2">
+    TEST CASE
+  </text>
+  <rect x="616" y="266" width="320" height="70" rx="12" fill="#25324A"/>
+  <rect x="952" y="266" width="320" height="70" rx="12" fill="#25324A"/>
+  <rect x="1288" y="266" width="320" height="70" rx="12" fill="#25324A"/>
+  <text x="776" y="309" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Direct prompt</text>
+  <text x="1112" y="309" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Few-shot examples</text>
+  <text x="1448" y="309" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">XML structure</text>
+
+  <text x="104" y="390" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">01 · Positive — negation</text>
+  <rect x="616" y="356" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="356" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="356" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="400" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="400" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="400" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="466" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">02 · Positive — contrast</text>
+  <rect x="616" y="432" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="432" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="432" width="320" height="68" rx="12" fill="#FCE4E4" stroke="#E7A8A8" stroke-width="2"/>
+  <text x="776" y="476" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="476" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="476" text-anchor="middle" fill="#8F2727" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">0 / 5</text>
+
+  <text x="104" y="542" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">03 · Positive — recommendation</text>
+  <rect x="616" y="508" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="508" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="508" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="552" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="552" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="552" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="618" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">04 · Negative — contrast</text>
+  <rect x="616" y="584" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="584" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="584" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="628" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="628" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="628" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="694" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">05 · Negative — explicit</text>
+  <rect x="616" y="660" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="660" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="660" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="704" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="704" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="704" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="770" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">06 · Negative — sarcasm</text>
+  <rect x="616" y="736" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="736" width="320" height="68" rx="12" fill="#FCE4E4" stroke="#E7A8A8" stroke-width="2"/>
+  <rect x="1288" y="736" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="780" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="780" text-anchor="middle" fill="#8F2727" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">0 / 5</text>
+  <text x="1448" y="780" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="846" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">07 · Neutral — quoted words</text>
+  <rect x="616" y="812" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="812" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="812" width="320" height="68" rx="12" fill="#FFF2CC" stroke="#E8CA69" stroke-width="2"/>
+  <text x="776" y="856" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="856" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="856" text-anchor="middle" fill="#785900" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">3 / 5</text>
+
+  <text x="104" y="922" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">08 · Neutral — factual list</text>
+  <rect x="616" y="888" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="888" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="888" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="932" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="932" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="932" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="104" y="998" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">09 · Neutral — review counts</text>
+  <rect x="616" y="964" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="952" y="964" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <rect x="1288" y="964" width="320" height="68" rx="12" fill="#E4F3E9" stroke="#A9D6B5" stroke-width="2"/>
+  <text x="776" y="1008" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1112" y="1008" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+  <text x="1448" y="1008" text-anchor="middle" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">5 / 5</text>
+
+  <text x="80" y="1090" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="1">
+    RESPONSES MATCHING EXPECTED LABEL
+  </text>
+  <rect x="80" y="1110" width="488" height="112" rx="16" fill="#FFFFFF" stroke="#D7DDE5" stroke-width="2"/>
+  <rect x="606" y="1110" width="488" height="112" rx="16" fill="#FFFFFF" stroke="#D7DDE5" stroke-width="2"/>
+  <rect x="1132" y="1110" width="488" height="112" rx="16" fill="#FFFFFF" stroke="#D7DDE5" stroke-width="2"/>
+  <text x="104" y="1155" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Direct prompt</text>
+  <text x="544" y="1185" text-anchor="end" fill="#1C5D38" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700">45 / 45</text>
+  <text x="630" y="1155" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Few-shot examples</text>
+  <text x="1070" y="1185" text-anchor="end" fill="#785900" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700">40 / 45</text>
+  <text x="1156" y="1155" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">XML structure</text>
+  <text x="1596" y="1185" text-anchor="end" fill="#785900" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700">38 / 45</text>
+
+  <text x="80" y="1277" fill="#344054" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600">
+    All 135 responses used an allowed label. Cell values show semantic matches, not format validity.
+  </text>
+  <text x="80" y="1320" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    Exploratory, hand-labeled set — 9 unique inputs; repeated calls are not 135 independent test cases.
+  </text>
+</svg>
