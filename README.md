@@ -37,6 +37,13 @@ export LLM_MODEL="qwen2.5:3b"
 export LLM_TEMPERATURE="0.7"
 ```
 
+Optionally set `LLM_TEXT` to evaluate a different input without editing or
+recompiling the source:
+
+```sh
+export LLM_TEXT="The app did not disappoint; it works flawlessly."
+```
+
 ### Compile and run
 
 ```sh

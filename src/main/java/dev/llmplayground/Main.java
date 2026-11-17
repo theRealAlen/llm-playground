@@ -17,8 +17,9 @@ import java.util.Locale;
 import java.util.Map;
 
 public final class Main {
-    private static final String TEXT =
-            "The service was excellent, the staff were kind, and everything worked perfectly.";
+    private static final String DEFAULT_TEXT =
+            "The device weighs 1.2 kilograms and includes a one-year warranty.";
+    private static final String TEXT = environmentOrDefault("LLM_TEXT", DEFAULT_TEXT);
     private static final List<String> LABELS = List.of("positive", "neutral", "negative");
     private static final List<PromptVariant> PROMPTS = List.of(
             new PromptVariant("no_examples", "No examples",
