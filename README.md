@@ -1,7 +1,9 @@
 # LLM Playground: prompt consistency
 
-A small Java 17+ experiment that sends one sentiment-classification task to an
-OpenAI-compatible chat-completions API 20 times for each of three prompt styles:
+A small Java 17+ experiment that sends one sentiment-classification task to a
+chat-completions endpoint 20 times for each of three prompt styles. It supports
+local Ollama and remote providers that use the OpenAI-compatible request and
+response format:
 
 1. Direct instructions, no examples.
 2. Few-shot instructions with examples.
